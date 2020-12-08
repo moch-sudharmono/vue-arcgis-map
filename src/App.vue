@@ -82,7 +82,7 @@
             var layer = new FeatureLayer({
               source: features,  // autocast as a Collection of new Graphic()
               objectIdField: "ObjectID",
-              title:"Judul Halaman"
+              title:"Title Page" 
             });          
             map.add(layer,0);
 
